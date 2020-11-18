@@ -19,3 +19,21 @@ function anyadirElemento(textoTarea) {
     // del parámetro textoTarea
     listaTareas.innerHTML += "<li>" + textoTarea + "</li>";
 }
+
+function borrarTarea() {
+    let numTarea = prompt("Escribe el número de la tarea que queires borrar");
+    numTarea -= 1;
+    console.log(numTarea)
+    //comprobar que el número de tarea es válido
+    let lTareas = document.getElementById("listaTareas")
+    if (numTarea >= 0 && numTarea <= lTareas.children.length ) {
+        // capturo el elemento que quiero borrar.
+        let eTareaBorrar = lTareas.children[numTarea];
+        lTareas.removeChild(eTareaBorrar)
+        // del elemento children, borro la posicion numTarea.
+    } else{
+        alert("Número no válido")
+    }
+
+    
+}
