@@ -37,6 +37,7 @@ footer{
 main{
     background-color: khaki;
     min-height: calc(100vh - 100px);
+    padding: 0;
 }
 
 main > section{
