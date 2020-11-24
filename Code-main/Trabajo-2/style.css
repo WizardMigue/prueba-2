@@ -19,7 +19,7 @@ nav > a {
     display: inline-block;
     width: 20px;
     height: 95%;
-    margin-left: 30px;
+    margin-left: 35px;
 }
 
 nav > a > img {
@@ -57,9 +57,9 @@ aside{
 
 aside > a {
     display: inline-block;
-    width: 30px;
-    height: 90%;
-    margin-left: 15px;
+    width: 20px;
+    height: 95%;
+    margin-left: 35px;
 }
 
 section{
@@ -67,11 +67,13 @@ section{
 }
 #videooso{
     width: auto;
+    margin: auto;
 }
 
 #caballo{
     display: block;
     align-content: center;
+    margin: auto;
 }
 
 aside > a > img {
