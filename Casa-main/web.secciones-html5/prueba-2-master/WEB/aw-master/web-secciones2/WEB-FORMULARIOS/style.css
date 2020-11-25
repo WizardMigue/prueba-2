@@ -1,0 +1,15 @@
+input{
+    display: block;
+}
+
+input[type="radio"]{
+    display: inline;
+    margin: 5px;
+}
+
+input[value]{
+    background-color: red;
+    border-color: gray;
+    border-style: solid;
+    
+}

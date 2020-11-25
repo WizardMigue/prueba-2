@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media (min-height: 480px){
+    th{
+        text-align: center;
+    }
+    table > head > tr > th{
+        padding: 15px;
+    }
+
+    tfoot > tr > td{
+        text-align: center;
+    }
+}

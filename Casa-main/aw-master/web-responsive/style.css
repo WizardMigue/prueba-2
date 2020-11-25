@@ -5,29 +5,9 @@
 
 /* Versión para móvil */
 
-header{
-    height: 40px;
-    background-color: lawngreen;
-}
+header, nav{
+    height: 50px;
 
-nav{
-    background-color: lightcoral;
-    height: 30px;
-}
-
-nav > a {
-    display: inline-block;
-    width: 20%;
-    height: 90%;
-    margin-left: 15px;
-}
-
-nav > a > img {
-    height: 80%;
-}
-
-nav > a > p{
-    display: none;
 }
 
 footer{
@@ -36,30 +16,43 @@ footer{
 
 main{
     background-color: khaki;
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 150px);
 }
-
-main > section{
-    margin: 5px;
-    background-color: lightskyblue;
-    height: 300px;
-}
-
 
 aside{
     background-color: lavender;
-    min-height: 40px;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
+    min-height: 50px;
 }
-
 
 /* Versión para tablet */
 
 @media (min-width: 480px){
+    header, nav{
+        height: 50px;
+        display: inline-block;
+    }
+
+    header{
+        width: 30%;
+    }
+    nav{
+        width: 70%;
+    }
     
+    aside{
+        width: 30%;
+        display: inline-block;
+        vertical-align: top;
+        min-height: calc(100vh - 50px); 
+    }
+    
+    main{
+        display: inline-block;
+        width: 70%;  
+        min-height: calc(100vh - 50px); 
+    }  
 }
+
 @media (min-width: 800px){
     header{
         width: 100%;
