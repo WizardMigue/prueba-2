@@ -1,1 +1,2 @@
-console.log("Hola Clase", "Hola Mundo");
+let variable = '1234';
+console.log(variable);
